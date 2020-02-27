@@ -1,0 +1,35 @@
+
+
+TABELLA CONCESSIONARIA AUTO USATE
+
+
+ID: Numero incrementale/ Primary_Key/ AI/ Unique
+----------------------
+TARGA: String/ Varchar(7)/ Unique/ NotNull
+----------------------
+MARCA: String/ Varchar(30)/ NotNull
+----------------------
+MODELLO: String/ Varchar(30)/ NotNull
+----------------------
+SEGMENTO: String/ Varchar(15)/ NotNull
+----------------------
+DATA IMMAT.: Data/ Date/ NotNull
+----------------------
+CV: Small
+----------------------
+CILINDRATA: Float(6,1)
+----------------------
+PROPRIETARI: TinyInt
+----------------------
+TRAZIONE: String/ Varchar(10)
+----------------------
+LUNGHEZZA: MediumInt
+----------------------
+LARGHEZZA: MediumInt
+----------------------
+ALTEZZA: MediumInt
+----------------------
+PESO: Int
+----------------------
+POSTI: TinyInt
+----------------------
