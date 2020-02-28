@@ -15,7 +15,7 @@ SEGMENTO: String/ Varchar(15)/ NotNull
 ----------------------
 DATA IMMAT.: Data/ Date/ NotNull
 ----------------------
-CV: Small
+CV: SmallInt
 ----------------------
 CILINDRATA: Float(6,1)
 ----------------------
@@ -23,13 +23,13 @@ PROPRIETARI: TinyInt
 ----------------------
 TRAZIONE: String/ Varchar(10)
 ----------------------
-LUNGHEZZA: MediumInt
+LUNGHEZZA: SmallInt
 ----------------------
-LARGHEZZA: MediumInt
+LARGHEZZA: SmallInt
 ----------------------
-ALTEZZA: MediumInt
+ALTEZZA: SmallInt
 ----------------------
-PESO: Int
+PESO: SmallInt
 ----------------------
 POSTI: TinyInt
 ----------------------
